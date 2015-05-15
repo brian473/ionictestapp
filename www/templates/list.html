@@ -1,0 +1,19 @@
+<ion-view title="List"> 
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Picture List View</h1>
+      </ion-header-bar>
+      <ion-content>
+        <ion-list>
+          <ion-item ng-repeat="photo in photos track by $index">
+        <img ng-src="{{photo.photo}}" width="100" height="100"/> 
+	{{photo.caption}}
+          </ion-item>
+        </ion-list>
+      </ion-content>
+    </ion-pane>
+
+    <ion-footer-bar ng-click="takePicture()" class="bar-stable">
+	<div class="title">Camera</div>
+    </ion-footer-bar>
+</ion-view>

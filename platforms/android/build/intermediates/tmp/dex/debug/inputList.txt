@@ -1,0 +1,2 @@
+/home/brian/workspace/testapp/platforms/android/build/intermediates/classes/debug
+/home/brian/workspace/testapp/platforms/android/build/intermediates/pre-dexed/debug/classes-9e086cc67662785daabdc1c2f0ab6acb2bb3f89b.jar
